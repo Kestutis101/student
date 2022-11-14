@@ -1,0 +1,16 @@
+a:not(1) #simple {
+  content: none;
+}
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: rgb(151, 130, 12);
+}
+a:not(a:first-child) {
+  color: grey;
+}
+
+a:not(a:first-child)::before {
+  content: " ///// ";
+}

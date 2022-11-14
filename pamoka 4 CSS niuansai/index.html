@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>>CSS niuansai</title>
+    <style>
+      body p    {
+        color: red;
+        }
+
+          p {
+             color: orange ; /*!important jeigu reikia pakeisti specifiskuma i auksciausia lygi */
+          }
+          .paragraph-styling.classtwo {
+            color: green;
+          }
+          #unique {
+            color: blue;
+          }*/
+    </style>
+  </head>
+  <body>
+    <p>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta
+      reprehenderit voluptatem ratione quibusdam repellat animi ad est non
+      quasi. Tempora.
+    </p>
+    <p class="paragraph-styling classtwo">
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta
+      reprehenderit voluptatem ratione quibusdam repellat animi ad est non
+      quasi. Tempora.
+    </p>
+    <p id="unique" class="paragraph-styling">
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta
+      reprehenderit voluptatem ratione quibusdam repellat animi ad est non
+      quasi. Tempora.
+    </p>
+  </body>
+</html>

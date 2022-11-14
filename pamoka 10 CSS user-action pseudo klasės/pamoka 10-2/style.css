@@ -1,0 +1,67 @@
+form {
+  border: 3px solid rgba(173, 173, 173, 0.5);
+  border-radius: 15px;
+  width: 70%;
+  margin: auto;
+  text-align: right;
+  padding: 10px;
+}
+
+input,
+select,
+fieldset {
+  width: 200px;
+  box-sizing: border-box;
+}
+
+input[type="radio"] {
+  width: auto;
+}
+
+fieldset {
+  margin-left: auto;
+  text-align: left;
+  margin-right: 0;
+}
+
+h1,
+h2,
+p {
+  text-align: left;
+}
+
+#date-picker-label {
+  margin-right: 200px;
+}
+
+button {
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+}
+
+input:focus {
+  background-color: yellow;
+}
+
+input[type="number"]:in-range {
+  background-color: rgb(123, 187, 123);
+}
+
+input[type="number"]:out-of-range {
+  background-color: rgb(236, 131, 131);
+}
+
+input:valid {
+  border: 1px solid green;
+}
+
+input:invalid {
+  border: 1px solid red;
+}
+
+button:hover {
+  background-color: rgba(2, 2, 2, 0.26);
+  border: 0.5px solid black;
+  border-radius: 2px;
+}
